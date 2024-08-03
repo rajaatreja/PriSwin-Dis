@@ -1,0 +1,18 @@
+{
+	"experiment_description": "EXPERIMENT_DESCRIPTION",
+	"image_path": "/path/to/images/",
+
+	"perturbation_type": "flow_field",
+	"perturbation_model_file": "/home/hpc/iwi5/iwi5156h/Discriminator/archive/EXPERIMENT_DESCRIPTION/generator_lowest_total_loss.pth",
+	"mu": 0.01,
+
+	"b": null,
+	"m": null,
+	"eps": null,
+
+	"image_size": 256,
+	"batch_size": 16,
+	"learning_rate": 0.0001,
+	"max_epochs": 100,
+	"early_stopping": 5
+}

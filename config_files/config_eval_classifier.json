@@ -1,0 +1,13 @@
+{
+	"image_path": "/path/to/images/",
+	"save_path": "./chexnet/results/test/",
+	"classifier_checkpoint": "/home/hpc/iwi5/iwi5156h/Discriminator/networks/pretrained_classifier.pth",
+
+	"perturbation_type": "flow_field",
+	"perturbation_model_file": "/home/hpc/iwi5/iwi5156h/Discriminator/archive/EXPERIMENT_DESCRIPTION/generator_lowest_total_loss.pth",
+	"mu": 0.01,
+
+	"b": null,
+	"m": null,
+	"eps": null
+}
