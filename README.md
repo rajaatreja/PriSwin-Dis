@@ -33,24 +33,24 @@ PriSwin-Net is a deep learning model for anonymizing and classifying chest radio
 - **PyTorch**: Ensure PyTorch 1.10.2 or higher is installed.
 - **Packages**: Install required packages listed in `requirements.txt`:
 
-  \```bash
+  ``` 
   pip install -r requirements.txt
-  \```
+  ```
 
 ## Installation
 
 1. **Clone the repository**:
 
-   \```bash
+   ``` 
    git clone https://github.com/your-username/priswin-net.git
    cd priswin-net
-   \```
+   ```
 
 2. **Install dependencies**:
 
-   \```bash
+   ``` 
    pip install -r requirements.txt
-   \```
+   ```
 
 3. **Download Pre-trained Models** (optional):
 
@@ -67,9 +67,9 @@ Set the experiment configuration in `./config_files/config_pretrain.json`. Key p
 
 Execute pre-training with:
 
-\```bash
+``` 
 python3 pretrain_generator.py --config_path ./config_files/ --config config_pretrain.json
-\```
+```
 
 ### Training of PriSwin-Net
 
@@ -82,9 +82,9 @@ Configure the experiment in `./config_files/config_anonymization.json`. Importan
 
 Run training with:
 
-\```bash
+``` 
 python3 train_architecture.py --config_path ./config_files/ --config config_anonymization.json
-\```
+```
 
 ### Evaluation
 
@@ -92,23 +92,23 @@ python3 train_architecture.py --config_path ./config_files/ --config config_anon
 
 Set parameters in `./config_files/config_retrainSNN.json` and execute:
 
-\```bash
+``` 
 python3 retrain_SNN.py --config_path ./config_files/ --config config_retrainSNN.json
-\```
+```
 
 #### Classification Model
 
 Configure `./config_files/config_eval_classifier.json` and run:
 
-\```bash
+``` 
 python3 eval_classifier.py --config_path ./config_files/ --config config_eval_classifier.json
-\```
+```
 
 Compute confidence intervals using:
 
-\```python
+```python
 bootstrap_abnormalities()
-\```
+```
 
 in `./utils/utils.py`.
 
