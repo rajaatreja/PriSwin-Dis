@@ -54,7 +54,7 @@ PriSwin-Net is a deep learning model for anonymizing and classifying chest radio
 
 3. **Download Pre-trained Models** (optional):
 
-   Download pre-trained weights from [here](https://github.com/your-username/Pre-trained-Weights) and place them in the `./networks/` directory.
+   Download pre-trained weights from [here](https://github.com/rajaatreja/Pre-trained-Weights) and place them in the `./networks/` directory.
 
 ## Usage
 
