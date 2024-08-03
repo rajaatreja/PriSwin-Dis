@@ -1,6 +1,6 @@
-# PriSwin-Net
+# PriSwin-Dis
 
-PriSwin-Net is a deep learning model for anonymizing and classifying chest radiographs, specifically designed to balance patient privacy with medical utility. This project adapts the [PriCheXy-Net](https://github.com/kaipackhaeuser/PriCheXy-Net) by incorporating a Swin Transformer architecture to enhance privacy preservation and classification accuracy.
+PriSwin-Dis is a deep learning model for anonymizing and classifying chest radiographs, specifically designed to balance patient privacy with medical utility. This project adapts the [PriCheXy-Net](https://github.com/kaipackhaeuser/PriCheXy-Net) by incorporating a Swin Transformer as auxiliary classifier and ResNet-50 architecture as auxiliary discriminator to enhance privacy preservation and classification accuracy.
 
 <figure>
     <img src="PriSwin-Dis.png" width="600">
@@ -20,7 +20,7 @@ PriSwin-Net is a deep learning model for anonymizing and classifying chest radio
 - [Installation](#installation)
 - [Usage](#usage)
   - [Pre-training](#pre-training-of-the-flow-field-generator)
-  - [Training](#training-of-priswin-net)
+  - [Training](#training-of-priswin-dis)
   - [Evaluation](#evaluation)
 - [Results](#results)
   - [Performance Comparison](#performance-comparison)
@@ -71,7 +71,7 @@ Execute pre-training with:
 python3 pretrain_generator.py --config_path ./config_files/ --config config_pretrain.json
 ```
 
-### Training of PriSwin-Net
+### Training of PriSwin-Dis
 
 Configure the experiment in `./config_files/config_anonymization.json`. Important parameters include:
 
