@@ -5,6 +5,7 @@ PriSwin-Dis is a deep learning model for anonymizing and classifying chest radio
 <div style="text-align: center;">
     <figure>
         <img src="PriSwin-Dis.png" width="600">
+        <br>
         <figcaption>Overview of PriSwin-Dis Architecture. Detailed description can be found in my <a href="Thesis.pdf">Thesis</a> work.</figcaption>
     </figure>
 </div>
