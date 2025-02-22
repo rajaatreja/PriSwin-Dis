@@ -2,10 +2,12 @@
 
 PriSwin-Dis is a deep learning model for anonymizing and classifying chest radiographs, specifically designed to balance patient privacy with medical utility. This project adapts the [PriCheXy-Net](https://github.com/kaipackhaeuser/PriCheXy-Net) by incorporating a Swin Transformer as auxiliary classifier and ResNet-50 architecture as auxiliary discriminator to enhance privacy preservation and classification accuracy.
 
-<figure>
-    <img src="PriSwin-Dis.png" width="600">
-    <figcaption>Overview of PriSwin-Dis Architecture. Detailed description can be found in my [Thesis](Thesis.pdf) work.</figcaption>
-</figure>
+<div style="text-align: center;">
+    <figure>
+        <img src="PriSwin-Dis.png" width="600">
+        <figcaption>Overview of PriSwin-Dis Architecture. Detailed description can be found in my <a href="Thesis.pdf">Thesis</a> work.</figcaption>
+    </figure>
+</div>
 
 ## Key Features
 
